@@ -19,7 +19,7 @@ section {
 }
 /* Style to make the heading be at the top of the calculator */
 h1 {
-  margin: 10px 0 0 20px;
+  margin: 10px 0 0 10px;
   /* display: grid; */
 }
 
@@ -30,6 +30,8 @@ h1 {
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
+  margin-top: 0px;
+  padding-top: 0px;
 }
 
 /* STYLING THE DISPLAY OF THE CALCULATOR */
@@ -105,4 +107,18 @@ h1 {
     font-size: 2rem;
     padding: 15px;
   }
+}
+
+/* Additional Styling for the Foooter */
+footer {
+  background-color: #1a1a1a;
+  color: #ccc;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  font-size: 0.9rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 1000;
 }
